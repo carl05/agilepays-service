@@ -1,0 +1,35 @@
+spring:
+  profiles:
+    active: "dev"
+---
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/agilepays
+    username: postgres
+    password: 123456
+    driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+  data:
+    rest:
+      base-path: /api
+      default-media-type: application/json
+---
+spring:
+  profiles: production
+  datasource:
+    url: jdbc:postgresql://node14609-agilepays.jelastic.saveincloud.net/agilepays
+    username: webadmin
+    password: BSPspo71276
+    driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+  data:
+    rest:
+      base-path: /api
+      default-media-type: application/json
+      
+        

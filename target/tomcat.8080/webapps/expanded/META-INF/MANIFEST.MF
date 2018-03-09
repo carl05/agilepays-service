@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: agilepays-service
+Implementation-Version: 0.0.1-SNAPSHOT
+Archiver-Version: Plexus Archiver
+Built-By: morpheus
+Implementation-Vendor-Id: br.com.agilepays
+Created-By: Apache Maven 3.5.0
+Build-Jdk: 1.8.0_141
+Implementation-URL: http://projects.spring.io/spring-boot/agilepays-se
+ rvice/
+Implementation-Vendor: Pivotal Software, Inc.
+
