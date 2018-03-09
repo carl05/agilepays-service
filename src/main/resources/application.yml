@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: "dev"
+    active: "production"
 ---
 spring:
   profiles: dev
@@ -20,9 +20,9 @@ spring:
 spring:
   profiles: production
   datasource:
-    url: jdbc:postgresql://node14609-agilepays.jelastic.saveincloud.net/agilepays
-    username: webadmin
-    password: BSPspo71276
+    url: jdbc:postgresql://postgresql:5432/agilepays
+    username: admin
+    password: 123456
     driverClassName: org.postgresql.Driver
   jpa:
     hibernate:
